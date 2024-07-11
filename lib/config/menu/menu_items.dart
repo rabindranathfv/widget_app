@@ -14,7 +14,7 @@ class MenuItem {
   });
 }
 
-const aapMenuItems = <MenuItem>[
+const appMenuItems = <MenuItem>[
   MenuItem(
       title: 'Buttons',
       subTitle: 'Severals flutter btns',
@@ -23,6 +23,6 @@ const aapMenuItems = <MenuItem>[
   MenuItem(
       title: 'Cards',
       subTitle: 'A styled container',
-      link: '/card',
+      link: '/cards',
       icon: Icons.credit_card)
 ];
