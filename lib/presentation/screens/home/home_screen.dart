@@ -4,6 +4,7 @@ import 'package:widget_app/config/menu/menu_items.dart';
 import 'package:widget_app/presentation/screens/buttons/buttons_screnn.dart';
 
 class HomeScreen extends StatefulWidget {
+  static const String name = 'home_screen';
   const HomeScreen({super.key});
 
   @override
@@ -15,13 +16,13 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Flutter + Material You')),
-      body: const _homeView(),
+      body: const _HomeView(),
     );
   }
 }
 
-class _homeView extends StatelessWidget {
-  const _homeView();
+class _HomeView extends StatelessWidget {
+  const _HomeView();
 
   @override
   Widget build(BuildContext context) {
@@ -37,11 +38,16 @@ class _homeView extends StatelessWidget {
           trailing:
               Icon(Icons.arrow_forward_ios_rounded, color: colors.primary),
           onTap: () {
+            // TODO: Metodos nativos de flutter
             // Way 1, compatible with goRouter
             // Navigator.of(context).push(
             //     MaterialPageRoute(builder: (context) => const ButtonsScreen()));
             // way 2, no compatible with goRouter
             // Navigator.pushNamed(context, appMenuItems[index].link);
+
+            // TODO: Metodos de goRouter
+            // way 3, adding name into goRouter and move into tthe screen
+            // context.pushNamed( ButtonsScreen.name );
 
             context.push(appMenuItems[index].link);
           },
