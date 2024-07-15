@@ -24,5 +24,15 @@ const appMenuItems = <MenuItem>[
       title: 'Cards',
       subTitle: 'A styled container',
       link: '/cards',
-      icon: Icons.credit_card)
+      icon: Icons.credit_card),
+  MenuItem(
+      title: 'Animated',
+      subTitle: 'A Animated container',
+      link: '/animated',
+      icon: Icons.panorama_horizontal),
+  MenuItem(
+      title: 'Tutorial',
+      subTitle: 'A Tuturial container',
+      link: '/tutorial',
+      icon: Icons.play_circle_fill_sharp)
 ];

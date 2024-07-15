@@ -13,5 +13,13 @@ final appRouter = GoRouter(initialLocation: '/', routes: [
   GoRoute(
       path: '/cards',
       name: CardsScreen.name,
-      builder: (context, state) => const CardsScreen())
+      builder: (context, state) => const CardsScreen()),
+  GoRoute(
+      path: '/animated',
+      name: AnimatedScreen.name,
+      builder: (context, state) => const AnimatedScreen()),
+  GoRoute(
+      path: '/tutorial',
+      name: AppTutorialScreen.name,
+      builder: (context, state) => const AppTutorialScreen())
 ]);
