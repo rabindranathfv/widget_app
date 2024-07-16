@@ -35,7 +35,7 @@ const appMenuItems = <MenuItem>[
       subTitle: 'A Animated container',
       link: '/animated',
       icon: Icons.panorama_horizontal),
-      MenuItem(
+  MenuItem(
       title: 'Snackbars',
       subTitle: 'A Snackbars container',
       link: '/snackbars',
