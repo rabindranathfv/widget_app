@@ -46,8 +46,8 @@ const appMenuItems = <MenuItem>[
       link: '/snackbars',
       icon: Icons.info_outline),
   MenuItem(
-      title: 'Tutorial',
-      subTitle: 'A Tuturial container',
+      title: 'Introduction Tutorial App',
+      subTitle: 'A Tuturial for how to use the app',
       link: '/tutorial',
-      icon: Icons.play_circle_fill_sharp)
+      icon: Icons.accessibility_new_rounded)
 ];
