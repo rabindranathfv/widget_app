@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:widget_app/config/router/app_router.dart';
 import 'package:widget_app/config/theme/app_theme.dart';
-import 'package:widget_app/presentation/screens/buttons/buttons_screnn.dart';
-import 'package:widget_app/presentation/screens/cards/cards_screen.dart';
-import 'package:widget_app/presentation/screens/home/home_screen.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const ProviderScope(child: MainApp()));
 }
 
 class MainApp extends StatelessWidget {
