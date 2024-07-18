@@ -59,5 +59,10 @@ const appMenuItems = <MenuItem>[
       title: 'State Management with RIVERPOD',
       subTitle: 'Riverpod',
       link: '/riverpod',
-      icon: Icons.add)
+      icon: Icons.add),
+  MenuItem(
+      title: 'Theme configuration',
+      subTitle: 'Theme configuration',
+      link: '/theme',
+      icon: Icons.color_lens_outlined)
 ];

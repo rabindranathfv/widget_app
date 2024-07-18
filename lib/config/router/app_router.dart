@@ -41,5 +41,9 @@ final appRouter = GoRouter(initialLocation: '/', routes: [
   GoRoute(
       path: '/riverpod',
       name: CounterScreen.name,
-      builder: (context, state) => const CounterScreen())
+      builder: (context, state) => const CounterScreen()),
+  GoRoute(
+      path: '/theme',
+      name: ThemeScreen.name,
+      builder: (context, state) => const ThemeScreen())
 ]);
