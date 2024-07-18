@@ -54,5 +54,10 @@ const appMenuItems = <MenuItem>[
       title: 'Infinite Scroll',
       subTitle: 'An Infinite scroll for the app',
       link: '/infinite',
-      icon: Icons.circle_rounded)
+      icon: Icons.circle_rounded),
+  MenuItem(
+      title: 'State Management with RIVERPOD',
+      subTitle: 'Riverpod',
+      link: '/riverpod',
+      icon: Icons.add)
 ];

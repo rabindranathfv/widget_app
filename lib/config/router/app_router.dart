@@ -37,5 +37,9 @@ final appRouter = GoRouter(initialLocation: '/', routes: [
   GoRoute(
       path: '/infinite',
       name: InfiniteScrollScreen.name,
-      builder: (context, state) => const InfiniteScrollScreen())
+      builder: (context, state) => const InfiniteScrollScreen()),
+  GoRoute(
+      path: '/riverpod',
+      name: CounterScreen.name,
+      builder: (context, state) => const CounterScreen())
 ]);
