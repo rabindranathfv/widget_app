@@ -50,6 +50,7 @@ class CounterScreen extends ConsumerWidget {
               heroTag: 'floatingButtonPreviousShape',
               onPressed: () {
                 // ref.read(counterProvider.notifier).update((state) => state - 1);
+                if (counter <= 0) return;
                 ref.read(counterProvider.notifier).state -= 1;
               },
               child: const Icon(Icons.remove),
